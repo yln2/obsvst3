@@ -8,8 +8,8 @@ Executable Powershell script **automate** cumbersome processes.
 https://github.com/yln2/obsvst3/raw/main/vst3wrapper4obs.exe
 ###
 ## Security Risks
-1. Administrator privileges
- OBS only recognizes plugins inside Program Files/Vstplugins. Moving files to programfiles requires administrator privileges.
-2. Base64
- I inserted the zip file as Base64 into the code to install without an internet. The internal files are:
+- Administrator privileges  
+OBS only recognizes plugins inside Program Files/Vstplugins. Moving files to programfiles requires administrator privileges.
+- Base64  
+I inserted the zip file as Base64 into the code to install without an internet. The internal files are:
 shell2vst64.exe, vst3shell.x64.core, vst3shell.x64.dll
